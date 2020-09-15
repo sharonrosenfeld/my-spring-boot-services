@@ -1,0 +1,11 @@
+/home/sharon/dev/my-spring-boot-services/dataAggregator/src/main/java/com/sharon/dataaggregator/service/SiteService.java
+/home/sharon/dev/my-spring-boot-services/dataAggregator/src/main/java/com/sharon/dataaggregator/model/SiteUserData.java
+/home/sharon/dev/my-spring-boot-services/dataAggregator/src/main/java/com/sharon/dataaggregator/DataAggregatorApplication.java
+/home/sharon/dev/my-spring-boot-services/dataAggregator/src/main/java/com/sharon/dataaggregator/model/APIUserData.java
+/home/sharon/dev/my-spring-boot-services/dataAggregator/src/main/java/com/sharon/dataaggregator/service/APIService.java
+/home/sharon/dev/my-spring-boot-services/dataAggregator/src/main/java/com/sharon/dataaggregator/config/APIRestTemplateConfig.java
+/home/sharon/dev/my-spring-boot-services/dataAggregator/src/main/java/com/sharon/dataaggregator/service/DataAggregatorMgr.java
+/home/sharon/dev/my-spring-boot-services/dataAggregator/src/main/java/com/sharon/dataaggregator/config/SiteRestTemplateConfig.java
+/home/sharon/dev/my-spring-boot-services/dataAggregator/src/main/java/com/sharon/dataaggregator/config/UserDataType.java
+/home/sharon/dev/my-spring-boot-services/dataAggregator/src/main/java/com/sharon/dataaggregator/config/RabbitMQConfig.java
+/home/sharon/dev/my-spring-boot-services/dataAggregator/src/main/java/com/sharon/dataaggregator/model/UserDataDispatchedRequest.java

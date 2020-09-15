@@ -1,0 +1,12 @@
+com/sharon/dataaggregator/service/DataAggregatorMgr.class
+com/sharon/dataaggregator/model/APIUserData.class
+com/sharon/dataaggregator/model/UserDataDispatchedRequest.class
+com/sharon/dataaggregator/DataAggregatorApplication.class
+com/sharon/dataaggregator/service/APIService.class
+com/sharon/dataaggregator/service/DataAggregatorMgr$SiteRunnable.class
+com/sharon/dataaggregator/service/SiteService.class
+com/sharon/dataaggregator/service/DataAggregatorMgr$APIRunnable.class
+com/sharon/dataaggregator/model/SiteUserData.class
+com/sharon/dataaggregator/config/RestTemplateConfig.class
+com/sharon/dataaggregator/config/ApplicationConfig.class
+com/sharon/dataaggregator/config/RabbitMQConfig.class

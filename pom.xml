@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+		 xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+	<modelVersion>4.0.0</modelVersion>
+
+<!--	<parent>-->
+<!--		<groupId>com.sharon</groupId>-->
+<!--		<artifactId>data-spring-services</artifactId>-->
+<!--		<version>0.0.1-SNAPSHOT</version>-->
+<!--	</parent>-->
+
+	<groupId>com.sharon</groupId>
+	<artifactId>data-spring-services</artifactId>
+	<packaging>jar</packaging>
+        <version>0.0.1-SNAPSHOT</version>
+
+	<profiles>
+		<profile>
+			<id>dataWS</id>
+			<activation>
+				<file>
+					<exists>dataWS/pom.xml</exists>
+				</file>
+			</activation>
+			<modules>
+				<module>dataWS</module>
+			</modules>
+		</profile>
+		<profile>
+			<id>dataAggregator</id>
+			<activation>
+				<file>
+					<exists>dataAggregator/pom.xml</exists>
+				</file>
+			</activation>
+			<modules>
+				<module>dataAggregator</module>
+			</modules>
+		</profile>
+		<profile>
+			<id>dataMockWS</id>
+			<activation>
+				<file>
+					<exists>dataMockWS/pom.xml</exists>
+				</file>
+			</activation>
+			<modules>
+				<module>dataMockWS</module>
+			</modules>
+		</profile>
+	</profiles>
+</project>
